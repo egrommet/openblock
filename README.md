@@ -8,7 +8,7 @@ recently in the immediate geographic area.
 OpenBlock began life as the open-source code released by
 Everyblock.com in June 2009.  Originally created by Adrian Holovaty
 and the Everyblock team, it is now developed as an open-source (GPL)
-project at http://openblockproject.org .
+project at [http://openblockproject.org](http://openblockproject.org).
 
 Funding for the initial creation of Everyblock and the ongoing
 development of OpenBlock is provided by the
@@ -29,14 +29,14 @@ System Requirements
  * `git`
 
 For system-specific lists of packages to install, see
-[Installation Requirements](http://developer.openblockproject.org/wiki/InstallationRequirements)
+[Openblock Installation Requirements](http://developer.openblockproject.org/wiki/InstallationRequirements)
 and let us know if your system isn't listed there!
 
 Quickstart: Install and Set Up Demo Site
 =========================================
 
 These instructions will install the software in an isolated
-python environment using virtualenv ( http://pypi.python.org/pypi/virtualenv )
+python environment using [virtualenv](http://pypi.python.org/pypi/virtualenv)
 For detailed instructions and further steps, see obdemo/README.txt::
 
     $ git clone git://github.com/openplans/openblock.git openblock
@@ -44,7 +44,7 @@ For detailed instructions and further steps, see obdemo/README.txt::
     $ python bootstrap.py
 
 
-Optionally you can edit obdemo/obdemo/real_settings.py at this stage.
+Optionally you can edit `obdemo/obdemo/real_settings.py` at this stage.
 It's a good idea to look at it, at least to get an idea of what can be
 configured.
 
@@ -57,14 +57,14 @@ Now you can set up the database and start the server::
 
 
 If all goes well, you should be able to visit the demo site at:
-http://localhost:8000
+[http://localhost:8000](http://localhost:8000).
 
 If you encounter problems, double check that you have the basic system
 requirements installed and then have a look at the step-by-step
 instructions in obdemo/README.txt.
 
-For more help, you can try the ebcode group:
-http://groups.google.com/group/ebcode
+For more help, you can try the
+[ebcode group](http://groups.google.com/group/ebcode)
 or look for us in the #openblock IRC channel on irc.freenode.net.
 
 
@@ -106,7 +106,7 @@ Details are in ebpub/README.TXT, but briefly to get anything useful
 out of your site, at mininum you will need to do the following:
 
   1. A database of streets in your city; for example
-     TIGER/Line files from http://www.census.gov/geo/www/tiger/
+     [TIGER/Line files](http://www.census.gov/geo/www/tiger/)
      See ebpub/README.TXT
 
   2. Decide what locations are interesting in your area - for example,
@@ -119,14 +119,14 @@ out of your site, at mininum you will need to do the following:
      ebpub/README.TXT
 
      b. Write scraper scripts to retrieve your news sources and feed
-     it in. See ebdata/README.TXT and http://developer.openblockproject.org/wiki/ScraperScripts
+     it in. See ebdata/README.TXT and [ScraperScripts wiki](http://developer.openblockproject.org/wiki/ScraperScripts)
 
 
-Yes, this is a lot of work.  For more documentation (in progress), see also:
-http://developer.openblockproject.org/wiki/Data
-http://developer.openblockproject.org/wiki/Ideal%20Feed%20Formats
+Yes, this is a lot of work.  For more documentation (in progress), see also
+the wiki articles of [Data](http://developer.openblockproject.org/wiki/Data),
+and [Ideal Feed Format](http://developer.openblockproject.org/wiki/Ideal%20Feed%20Formats).
 
-The obdemo/bin/bootstrap_demo.sh script does all this for the demo
+The `obdemo/bin/bootstrap_demo.sh` script does all this for the demo
 site.  You can dive into the other scripts that it calls to get more
 details on how it all works.
 
@@ -140,7 +140,7 @@ This distribution contains a number of packages, summarized below:
 obdemo
 ------
 
-The code and configuration used by http://demo.openblockproject.org.
+The code and configuration used by [OpenBlock](http://demo.openblockproject.org).
 This is useful as an example of how to set up your own site based on
 OpenBlock, and is a great place to start.  It primarily uses the ebpub
 package, and is set up with Boston, MA as the area of interest.
@@ -178,12 +178,12 @@ Other Packages
 ebblog
 ------
 
-The blog application used by http://blog.everyblock.com
+The blog application used by [Everyblock blog](http://blog.everyblock.com)
 
 Only of interest if you want to bundle a simple blog with your
 OpenBlock site; you can probably ignore this.
 
-For more information, see ebblog/README.TXT
+For more information, see [ebblog/README.TXT](ebblog/README.TXT)
 
 
 
