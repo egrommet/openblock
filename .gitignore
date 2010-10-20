@@ -5,6 +5,7 @@
 ._*
 *#
 .#*
+*.swp
 .DS_Store
 /obdemo/obdemo/real_settings.py
 obdemo/tiger_data
